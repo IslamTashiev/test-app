@@ -1,0 +1,42 @@
+body{
+  background-color: #F7F8FA;
+}
+
+/* ==========Pin Code========== */
+.pincode-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pincode-input-text {
+  width: 40px !important;
+  height: 40px !important;
+  border: 1px solid #409fff !important;
+  border-radius: 4px;
+  margin: 0 !important;
+  padding: 0 10px !important;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #38455d;
+}
+
+.pincode-input-text:focus {
+  outline: none;
+  box-shadow: none;
+}
+.pin-input {
+  position: relative;
+}
+/* ==========Radio Slider========== */
+.radio__elem.active div{
+  border: 1px solid #409fff;
+  box-shadow: 0 0 0 3px rgba(178, 217, 255, 0.8);
+  color: #409fff;
+  /* margin-right: 180px !important; */
+  position: relative;
+}
+.radio__elem.active p {
+  color: #409fff;
+}
